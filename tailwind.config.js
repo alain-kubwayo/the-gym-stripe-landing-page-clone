@@ -9,6 +9,8 @@ module.exports = {
         tertiary: "#0A2540",
         auxiliary: "#ADBCCB",
         label: "#00D4FF",
+        description: "#ADBDCC",
+        light: "#F6F9FC",
       },
       fontSize: {
         "sm-md": "15px",
