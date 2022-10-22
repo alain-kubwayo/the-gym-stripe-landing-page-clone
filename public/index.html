@@ -27,9 +27,9 @@
       <!-- GRID OVERALY - END -->
 
       <!-- NAVIGATION -->
-      <div class="h-[60vh] relative">
+      <div class="h-[70vh] 2xl:h-[30vh] relative">
         <div
-          class="absolute inset-0 -skew-y-6 bg-gradient-to-b from-[#6ec3f4] to-[#e63946] -z-10 -translate-y-[20%]"
+          class="absolute inset-0 -skew-y-12 bg-gradient-to-b from-[#6ec3f4] to-[#e63946] -z-10 -translate-y-[35%] 2xl:-translate-y-[70%]"
         ></div>
         <nav
           class="py-[1%] flex justify-between items-center text-white w-[1280px] max-w-[80%] mx-auto"
@@ -102,6 +102,122 @@
         </nav>
       </div>
       <!-- NAVIGATION - END -->
+      <div class="-mt-[28%] 2xl:-mt-[15%] pt-[2%]">
+        <div class="grid grid-cols-3 w-[1280px] max-w-[80%] mx-auto">
+          <div class="col-span-2 pl-4 space-y-6">
+            <h1 class="text-[94px] font-extrabold text-black leading-[110%]">
+              Financial infrastructure for the internet
+            </h1>
+            <p class="text-black">
+              Millions of companies of all sizes—from startups to Fortune <br />
+              500s—use Stripe's software and APIs to accept payments,<br />
+              send payouts, and manage their businesses online.
+            </p>
+            <div class="flex">
+              <button
+                class="flex items-center justify-center gap-3 px-4 py-2 text-white bg-black rounded-full group hover:opacity-20"
+              >
+                <span>Start now</span>
+                <span class="relative flex">
+                  <span
+                    class="absolute top-0 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="transition-all duration-300 opacity-100 group-hover:opacity-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex items-center justify-center gap-3 px-4 py-2 text-black bg-white rounded-full group hover:opacity-20"
+              >
+                <span>Contact sales</span>
+                <span class="relative flex">
+                  <span
+                    class="absolute top-0 left-0 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="transition-all duration-300 opacity-100 group-hover:opacity-0"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./assets/svgs/phone.svg" alt="Phone" />
+            <div
+              class="absolute left-[40%] -top-[5%] right-[30%] -z-10 w-[595px] bg-black"
+            >
+              <div>
+                <img
+                  src="./assets/header-dashboard.png"
+                  alt="Dashboard"
+                  class="w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- PARTNERS -->
       <div class="w-[1280px] max-w-[80%] mx-auto py-32">
@@ -212,7 +328,7 @@
             <img src="./assets/visa.png" alt="Visa" />
           </div>
           <div>
-            <img src="./assets/slack.png" alt="Slack" />
+            <img src="./assets/udacity.png" alt="Slack" />
           </div>
           <div class="col-span-1 row-span-2">
             <img
@@ -221,7 +337,7 @@
               alt="Pay"
             />
           </div>
-          <div class="col-span-2 bg-blue-700">
+          <div class="col-span-2">
             <img src="./assets/dashboard.png" alt="Dashboard" />
           </div>
         </div>
@@ -418,7 +534,7 @@
       <!-- DESIGNED FOR DEVELOPERS - END -->
 
       <!-- WHY STRIPE -->
-      <div class="relative py-48 -skew-y-6 bg-white">
+      <div class="relative pt-10 pb-48 -skew-y-6 bg-white translate-y-[10%]">
         <div class="skew-y-6 w-[1280px] max-w-[80%] mx-auto">
           <div class="flex flex-col space-y-20">
             <div class="space-y-10">
@@ -529,15 +645,15 @@
 
       <!-- GLOBAL SCALE -->
       <div class="relative bg-tertiary -z-10">
+        <img
+          class="absolute w-full h-full"
+          src="./assets/global-cover.png"
+          alt="Wallpaper"
+        />
         <div
-          class="text-auxiliary -translate-y-[10%] w-[1280px] max-w-[80%] mx-auto"
+          class="text-auxiliary -translate-y-[15%] w-[1280px] max-w-[80%] mx-auto"
         >
-          <img
-            class="absolute w-full h-full"
-            src="./assets/global-cover.png"
-            alt="Wallpaper"
-          />
-          <div class="relative pb-32 pt-72">
+          <div class="relative pb-0 pt-96">
             <div class="flex flex-col space-y-6">
               <h3 class="pl-4 font-bold text-label">Global Scale</h3>
               <h2 class="text-4.5xl text-white font-bold pl-4">
@@ -600,7 +716,7 @@
       <!-- GLOBAL SCALE - END -->
 
       <!-- GET STARTED -->
-      <div class="bg-white">
+      <div class="relative bg-white -z-10">
         <div class="grid grid-cols-4 py-20 w-[1280px] max-w-[80%] mx-auto">
           <div class="col-span-2 pl-4">
             <div class="flex flex-col space-y-6">
@@ -832,11 +948,11 @@
       <!-- GET STARTED - END -->
 
       <!-- FOOTER -->
-      <div class="bg-light">
+      <div class="-skew-y-6 bg-light">
         <footer
-          class="translate-y-[10%] -skew-y-6 py-64 z-10 w-[1280px] max-w-[80%] mx-auto"
+          class="translate-y-[10%] pt-20 pb-64 z-10 w-[1280px] max-w-[80%] mx-auto skew-y-6"
         >
-          <div class="grid grid-cols-4 skew-y-6">
+          <div class="grid grid-cols-4">
             <ul class="flex flex-col justify-between pl-4">
               <li>
                 <p class="text-2xl font-extrabold">Stripe</p>

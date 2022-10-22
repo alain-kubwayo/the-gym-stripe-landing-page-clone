@@ -4,7 +4,8 @@
   "description": "Stripe homepage built with HTML and TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+    "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "repository": {
     "type": "git",
