@@ -1,0 +1,24 @@
+{
+  "name": "the-gym-stripe-landing-page-clone",
+  "version": "1.0.0",
+  "description": "Stripe homepage built with HTML and TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css",
+    "tailwind": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alain-kubwayo/the-gym-stripe-landing-page-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alain-kubwayo/the-gym-stripe-landing-page-clone/issues"
+  },
+  "homepage": "https://github.com/alain-kubwayo/the-gym-stripe-landing-page-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
